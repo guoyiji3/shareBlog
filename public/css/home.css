@@ -1,0 +1,147 @@
+h1, h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #42b983;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+h1{
+  text-align: center;
+  margin-top: 200px;
+}
+.navbar-brand a{
+  margin: 0 20px;
+}
+.navbar-brand a:hover{
+  color: black;
+}
+.navbar-brand a:active{
+  font-weight: bold;
+}
+.navbar-brand a:visited{
+  font-weight: bold;
+}
+.listBox{
+  width: 80%;
+  margin: 0px auto;
+  background: #f6f6ad;
+  padding: 2px;
+  position: relative;
+}
+.listBox h1{
+  margin-top: 60px;
+}
+.listBox hr{
+  border: 2px solid #fff;
+}
+.function{
+  margin: 50px auto 100px;
+  width: 80px;
+  height: 40px;
+  text-align: center; /* 文字居中 */
+  line-height: 40px;
+  text-decoration: none; /* 取消链接下划线 */
+  border-radius: 5px; /* 圆角定义，左侧圆角中间直角 */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e3e3e3), color-stop(1,#e4b9b9));
+}
+.listBox .function a{
+  color: white;
+}
+.focus{
+  font-weight: bold;
+  color: #e4b9b9;
+}
+.comment{
+  position: relative;
+  height: 150px;
+  padding: 0 10px;
+}
+.comment textarea{
+  width: 80%;
+  margin: 0 100px;
+}
+.btn{
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  padding: 0;
+  border: none;
+  color: white;
+  width: 60px;
+  height: 40px;
+  text-align: center; /* 文字居中 */
+  line-height: 40px;
+  border-radius: 5px; /* 圆角定义，左侧圆角中间直角 */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e3e3e3), color-stop(1,#e4b9b9));
+
+}
+.btn:hover{
+  color: white;
+}
+.comment-list{
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  padding: 0 10px;
+}
+.fl {
+  float: left;
+}
+
+.clear:after,
+.clear:before {
+  content: "";
+  display: table;
+}
+.clear:after {
+  clear: both;
+}
+.clear {
+  *zoom: 1;
+}
+.p1{
+  text-align: left;
+  text-indent: 10em;
+}
+.colDefault{
+  text-align: center;
+}
+.span1{
+  position: absolute;
+  left: 10%;
+}
+.span2{
+  position: absolute;
+  left: 50%;
+}
+.span3{
+  position: absolute;
+  right: 10%;
+}
+.pageNum{
+  background:#f6f6ad ;
+  height: 20px;
+}
+.delComment{
+  float: right;
+}
+.fr {
+   position: absolute;
+   right: 350px;
+ }

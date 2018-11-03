@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="/public/css/login.css">
+  <script src="/public/js/jquery-1.10.1.min.js"></script>
+  <script src="/public/js/login.js"></script>
+</head>
+<body>
+<div id="loginbox">
+  <div class="bg-div"></div>
+  <div class="signin">
+    <p class="tip" v-show="errorTip">aaaaa</p>
+    <h1>登录窗口</h1>
+    <img class="user-avater"  src="public/images/icon.jpg" height="320" width="320" style="width: 80px; height: 80px"/>
+
+    <div class="box signin-form">
+        <div >
+          <label>用户名：</label>
+          <input class="form-control form-input" placeholder="用户名" type="text" name="username" v-model="userName"/>
+        </div>
+        <div class="" style="margin: 20px 0;">
+          <label>密码：</label>
+          <input class="form-control form-input" placeholder="密   码" type="password" name="password" v-model="passWord" @keyup.enter="login()"/>
+        </div>
+        <!--<div class="save-div">-->
+          <!--<input type="checkbox" class="save-checkbox"  onchange="checkSave()" checked/>-->
+          <!--<span class="save-pass">记住密码</span>-->
+        <!--</div>-->
+        <button>登录</button>
+        <span class="signup">还没有账户，立即<a class="signup-a" href="/register">注册</a></span>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+

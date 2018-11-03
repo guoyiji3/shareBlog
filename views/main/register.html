@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="/public/css/login.css">
+  <script src="/public/js/jquery-1.10.1.min.js"></script>
+  <script src="/public/js/login.js"></script>
+
+</head>
+<body>
+<div id="registerbox">
+  <div class="bg-div"></div>
+  <div class="signin">
+    <p class="tip" v-show="errorTip"></p>
+    <h1>注册窗口</h1>
+    <div class="box signin-form" >
+        <div>
+          <label>用户名：</label>
+          <input class="form-control form-input" placeholder="用户名" type="text" name="username" v-model="userName"/>
+        </div>
+        <div class="" style="margin: 20px 0;">
+          <label>密码：</label>
+          <input class="form-control form-input" placeholder="密   码" type="password" name="password" v-model="passWord" @keyup.enter="login()"/>
+        </div>
+        <div class="" style="margin: 20px 0;">
+          <label>确认密码：</label>
+          <input class="form-control form-input" placeholder="确认密码" type="password" name="repassword" v-model="passWord" @keyup.enter="login()"/>
+        </div>
+        <button>注册</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>

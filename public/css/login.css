@@ -1,0 +1,221 @@
+@-webkit-keyframes animate-cloud {
+  from {
+    background-position: 1024px 0%;
+  }
+  to {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes animate-cloud {
+  from {
+    background-position: 1024px 0%;
+  }
+  to {
+    background-position: 0 100%;
+  }
+}
+@-ms-keyframes animate-cloud {
+  from {
+    background-position: 1024px 0%;
+  }
+  to {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes animate-cloud {
+  from {
+    background-position: 1024px 0%;
+  }
+  to {
+    background-position: 0 100%;
+  }
+}
+body{
+  background:url(../images/2.jpg) 0 bottom repeat-x  #049ec4;
+  -webkit-animation: animate-cloud 20s linear infinite;
+  -moz-animation: animate-cloud 20s linear infinite;
+  -ms-animation: animate-cloud 20s linear infinite;
+  -o-animation: animate-cloud 20s linear infinite;
+  animation: animate-cloud 20s linear infinite;
+  width: 100%;
+  height: auto;
+}
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*.bg-div{*/
+  /*background: url('https://raw.githubusercontent.com/MrQingchun/lpy-nodejs/master/public/img/bg2.jpg') center;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*position: fixed;*/
+  /*top: 0;*/
+  /*left: 0;*/
+/*}*/
+.signin{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tip{
+  color: white;
+  width: 100%;
+  border-radius: 4px;
+  border: 2px solid rgba(221, 221, 129, 0.68);
+  background: rgba(221, 221, 129, 0.68);
+  text-align: center;
+  padding: 10px;
+}
+.user-avater{
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+.box {
+  width: 400px;
+  color: #666;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  border-radius: 4px;
+  border: 2px solid rgba(221, 221, 129, 0.68);
+  border-top: 0;
+  position: relative;
+}
+.box::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -21px;
+  border-top-left-radius: 4px;
+  border-left: 2px solid rgba(255,255,255, 0.3);
+  border-top: 2px solid rgba(255,255,255, 0.3);
+  transform: rotate(45deg);
+  box-shadow: inset 1px 0 0 rgba(221, 221, 129, 0.68), inset 0 1px 0 rgba(221, 221, 129, 0.68);
+}
+.box::before {
+  content: '';
+  display: block;
+  width: 420px;
+  height: 2px;
+  position: absolute;
+  top: 0px;
+  left: -2px;
+  /* margin: -199px 199px; */
+  border-top-left-radius: 4px;
+  /* transform: rotate(90deg); */
+  box-shadow: inset 181px 0 0 0 rgba(221, 221, 129, 0.68), inset -181px 0 0 0 rgba(221, 221, 129, 0.68);
+}
+.signin-form{
+  height: calc(100% - 40px);
+}
+.btn{
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  border-radius: 0px;
+  -webkit-user-select: none;
+}
+.btn-submit{
+  width: 360px;
+  height: 40px;
+  background-color: #3B89F5;
+  border-color: #3B89F5;
+  margin-top: 20px;
+}
+.btn-submit:hover{
+  color: #fff;
+  background-color: #0C6CED;
+  border-color: #0C6CED;
+  text-decoration: none;
+}
+input::-webkit-input-placeholder {
+  color: #242424;
+}
+.form-control {
+  display: block;
+  width: 70%;
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 15px;
+  float: right;
+  line-height: 1.42857143;
+  color: #000;
+  box-sizing: border-box;
+}
+.form-control:focus {
+  border-color: rgba(59,137,245, 0.5);
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(59,137,245, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(59,137,245, 0.6);
+}
+.form-input{
+  background: transparent;.
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 0 4px rgba(221, 221, 129, 0.68),0 0 4px rgba(221, 221, 129, 0.68);
+}
+.save-div{
+  color: #fff;
+  font-weight: bold;
+}
+.save-checkbox{
+  float: left;
+}
+.save-pass{
+  float: left;
+}
+.save-text{
+  float: right;
+  color: #DD4B39;
+}
+.signup{
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(221, 221, 129, 0.68);
+  margin-top: 8px;
+  display: block;
+}
+.signup-a{
+  color: rgba(221, 221, 129, 0.68);
+  font-weight: bold;
+}
+h1{
+  color: rgba(221, 221, 129, 0.68)
+}
+label{
+  float: left;
+  color: rgba(221, 221, 129, 0.68);
+  line-height: 40px;
+}
+.signin-form div{
+ height: 40px;
+}
+button{
+  color: white;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #e3e3e3), color-stop(1,#e4b9b9)) ;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: none;
+}

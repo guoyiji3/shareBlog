@@ -1,0 +1,45 @@
+{% extends 'layout.html' %}
+{% block main %}
+<div class="listBox" xmlns="http://www.w3.org/1999/html">
+  <hr>
+  <div>
+    <h1>{{content.title}}</h1>
+    <p class="colDefault">
+      作者：<span class="colInfo">{{content.user.username}}</span> -
+      时间：<span class="colInfo">{{content.addTime|date('Y年m月d日 H:i:s', -8*60)}}</span> -
+      阅读：<span class="colInfo">{{content.views}}</span> -
+      评论：<span class="colInfo">{{content.comments.length}}</span>
+    </p>
+   <p style="text-align: left; text-indent: 2em;">{{content.content}}</p>
+  </div>
+  <hr>
+  <p class="total" style="text-align: right; padding-right:50px; "></p>
+  <div class="comment">
+    {% if userInfo._id%}
+    <textarea placeholder="请发表评论" rows="4" name="comment" id="comment"></textarea></br>
+    <input type="hidden" id="contentId" value="{{content.id}}">
+    <button type="submit" class="btn" >评论</button>
+    {% else %}
+    <p style="text-align: center;">-------    您还没有登录，请先<a href="/login">登录👩‍🎓</a>     -------</p>
+    {% endif %}
+  </div>
+  <hr style="border: 1px dotted #fff;">
+  <div class="comment-list">
+    <!--<div class="messageBox">-->
+    <!--<p class="name clear">-->
+      <!--<span class="fl">admin</span>-->
+      <!--<span class="fr">2016年07月29日 17:24:01</span>-->
+    <!--</p>-->
+      <!--<p class="p1">哈哈</p>-->
+    <!--</div>-->
+  </div>
+  <hr style="margin-bottom: 10px;">
+  <div class="pageNum">
+    <span class="span1">上一页</span>
+    <span class="span2"></span>
+    <span class="span3">下一页</span>
+  </div>
+</div>
+<script src="/public/js/comment.js" ></script>
+{% endblock %}
+
