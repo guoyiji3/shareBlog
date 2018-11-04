@@ -9,7 +9,8 @@
 管理员端：主要负责管理用户信息、博文分类和定期更新文章内容。  
 客户端：用户可以自行注册账号登陆系统，对文章进行浏览，并评论发布自己的体会。  
 
-## 开发环境配置
+## 开发环境配置  
+
 hhhhh
 开发工具：在webstorm64工具上进行代码开发，需要先安装node.js8.11.4（下载地址：https://nodejs.org/en/download/ ）、mongodb数据库（下载链接：https://www.mongodb.com/download-center?jmp=nav ）以及可以可视化查看mongodb数据库的工具studio 3T（下载链接：https://studio3t.com/download/ ）。
 安装依赖：用"npm install --save xxx "模式安装好以下依赖:
