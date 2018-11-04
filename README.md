@@ -10,7 +10,7 @@
 ## 开发环境配置
 开发工具：在webstorm64工具上进行代码开发，需要先安装node.js8.11.4、mongodb数据库（下载链接：https://www.mongodb.com/download-center?jmp=nav ）以及可以可视化查看mongodb数据库的工具studio 3T（下载链接：）。
 安装依赖：用"npm install --save xxx "模式安装好以下依赖:
-          express()、cookies()、markdown()、mongoose()、swig()
+          express()、cookies()、markdown()、mongoose()、swig().
 [开发环境]：罗列使用本工程项目所需要安装的开发环境及配置，以及所需软件的版本说明和对应的下载链接。
 [项目结构简介]：简单介绍项目模块结构目录树，对用户可以修改的文件做重点说明。
 [测试DEMO]：此处可以简单介绍一下DEMO程序的思路，具体实现代码放在example文件夹中。
