@@ -2,7 +2,6 @@
 分享博客  
 个人开发的一个关于分享音乐、旅游、阅读、电影等方面的文章的公开可交流平台。由于时间和能力有限，博客功能比较单一，以后会不断丰富完善, 
 有错误的地方欢迎指正交流。
-  https://github.com/guoyiji3/shareBlog/blob/master/detail.png  
   
 ## 功能描述
 
