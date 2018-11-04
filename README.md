@@ -36,6 +36,6 @@ app.js-应用程序入口文件
 添加内容页  
 ![Image text](https://github.com/guoyiji3/shareBlog/blob/master/images-RM/add.png)  
 博客首页  
-![Image text](https://github.com/guoyiji3/shareBlog/blob/master/images-RM/login.png)  
+![Image text](https://github.com/guoyiji3/shareBlog/blob/master/images-RM/index.png)  
 文章浏览页面  
 ![Image text](https://github.com/guoyiji3/shareBlog/blob/master/images-RM/detail.png)
