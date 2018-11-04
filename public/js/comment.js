@@ -1,7 +1,7 @@
 var comments='';
-var page = 2;
+var page = 1;
 var pages = 0;
-var limit = 5;
+var limit = 10;
 $('.comment').find('button').on('click',function () {
   $.ajax({
     type:'post',
@@ -64,7 +64,7 @@ function showComment() {
     for(var i=start;i<end;i++){
        html += '<div class="messageBox">'+
          '<p class="name clear"><span class="fl">'+comments[i].username+'</span><span class="fr">'+ formatDate(comments[i].postTime) +'</span>'+'</p><p>'+comments[i].content+'</p>'+
-        '</div>';
+        '</div><hr style="border:1px white dashed">';
     }
     $('.comment-list').html(html);
 }
